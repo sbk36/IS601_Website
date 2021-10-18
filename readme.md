@@ -1,4 +1,5 @@
 # This repository contians all the code file for IS601 Website HW and Project
 
-# Website link 
-[History Of Internet](http://internethistoryIS601.eastus.azurecontainer.io)
+#  link 
+[History Of Internet- Azure Link](http://internethistoryIS601.eastus.azurecontainer.io)
+[History Of Internet- Github Link](https://sbk36.github.io/IS601_Website/)
