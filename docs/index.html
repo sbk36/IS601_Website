@@ -1,69 +1,103 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
+    <meta charset="utf-8">
     <title>Home</title>
-    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <!--    bootstrap css-->
+    <link crossorigin="anonymous" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+          integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" rel="stylesheet">
+    <!--   Google Fonts-->
+    <link href="https://fonts.googleapis.com" rel="preconnect">
+    <link crossorigin href="https://fonts.gstatic.com" rel="preconnect">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com" rel="preconnect">
+    <link crossorigin href="https://fonts.gstatic.com" rel="preconnect">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Ubuntu:wght@300&display=swap"
+          rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com" rel="preconnect">
+    <link crossorigin href="https://fonts.gstatic.com" rel="preconnect">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Ubuntu:wght@300&display=swap"
+          rel="stylesheet">
+
+    <!--    font awesome-->
+    <script crossorigin="anonymous" src="https://kit.fontawesome.com/a065837184.js"></script>
+
+    <!--    bootstrap javasript -->
+    <script crossorigin="anonymous"
+            integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+            src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script crossorigin="anonymous"
+            integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+            src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+    <script crossorigin="anonymous"
+            integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+            src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <link href="css/styles.css" rel="stylesheet">
+    <link href="css/styles.css" rel="java">
 </head>
-<body >
-<div id="wrapper">
-    <header>
-      <span class="image-clickable">
-        <a href="index.html">
-          <img src="images/internet.png" alt="main-logo" class="logo" />
-        </a>
-      </span>
-        <nav>
-            <ul class="nav-links">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="f-layout.html">Content</a></li>
-                <li>
-                    <a href="#">Info</a>
-                    <ul>
-                        <li><a href="#">Browser Wars</a></li>
-                        <li><a href="#">Internet Search</a></li>
-                        <li><a href="#">DotCom Bubble</a></li>
-                        <li><a href="#">People</a></li>
-                    </ul>
+
+<body>
+
+<section id="title">
+    <div class="container-fluid">
+
+        <div id="content-wrap">
+        <!-- Nav Bar -->
+        <nav class="navbar  navbar-expand-lg   navbar-light">
+
+        <a class="navbar-brand" href="index.html"> <i class="fas fa-wifi"></i> HistoryOfInternet</a>
+
+        <button aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"
+                class="navbar-toggler"
+                data-target="#navbarSupportedContent" data-toggle="collapse" type="button">
+
+            <span class="navbar-toggler-icon"></span>
+
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home</a>
                 </li>
+
+                <li class="nav-item dropdown">
+                    <a aria-expanded="false" aria-haspopup="true" class="nav-link dropdown-toggle"
+                       data-toggle="dropdown"
+                       id="navbarDropdown" role="button">
+                        Content
+                    </a>
+                    <div aria-labelledby="navbarDropdown" class="dropdown-menu">
+                        <a class="dropdown-item" href="history.html">History</a>
+                        <a class="dropdown-item" href="browserWar.html">Browser War</a>
+                        <a class="dropdown-item" href="internetSearch.html">Internet Search</a>
+                        <a class="dropdown-item" href="dotComBubble.html">Dot Com Bubble</a>
+                        <a class="dropdown-item" href="people.html">People</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="team.html">Team</a>
+                </li>
+
             </ul>
+        </div>
         </nav>
-<!--        <a href="#"><button></button></a>-->
-    </header>
-    <img class="center" id = 'img1' src="images/internet_second.jpg"  alt="internet">
-    <br>
-    <main id="zArea">
-        <div id="c1">
-            <h3>Part 1: Browser Wars</h3>
-            <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-                magna aliqua. Cursus sit amet dictum sit amet justo donec enim. Ut enim blandit volutpat maecenas volutpat
-                blandit aliquam. Velit aliquet sagittis id consectetur purus ut.
-            </p>
-        </div>
-        <div id="c2">
-            <h3>Part 2: Internet Search</h3>
-            <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-                magna aliqua. Cursus sit amet dictum sit amet justo donec enim. Ut enim blandit volutpat maecenas volutpat
-                blandit aliquam. Velit aliquet sagittis id consectetur purus ut.
-            </p>
-        </div>
-        <div id="c3">
-            <h3>Part 3: Dot Com Bubble</h3>
-            <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-                magna aliqua. Cursus sit amet dictum sit amet justo donec enim. Ut enim blandit volutpat maecenas volutpat
-                blandit aliquam. Velit aliquet sagittis id consectetur purus ut.
-            </p>
-        </div>
-        <div id="c4">
-                <h3>Part 4: People</h3>
-            <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-                magna aliqua. Cursus sit amet dictum sit amet justo donec enim. Ut enim blandit volutpat maecenas volutpat
-                blandit aliquam. Velit aliquet sagittis id consectetur purus ut.
-            </p>
+
+        <div class="row">
+            <div class="col-lg-6">
+                <h1 class="bigHeading">Want to learn About the History of Internet?</h1>
+                <a class="btn btn-dark download-button" href="history.html" role="button"> <i class="fas fa-seedling"></i> Click Here</a>
+
+            </div>
+
+
+            <div class="col-lg-6">
+                <img alt="internet" class="center" id='img1' src="images/internet_second.jpg">
+
+            </div>
 
 
 
@@ -72,10 +106,93 @@
 
         </div>
 
-    </main>
-    <footer>
-        <small>&copy; Copyright 2021, Smeet Kathiria</small>
-    </footer>
-</div>
+    </div>
+    </div>
+</section>
+
+<section id="sec2">
+
+
+    <section id="contents">
+
+        <div class="row">
+
+            <div class="content-box col-lg-4">
+                <div class="hoverBox">
+                    <a href="history.html" class="aClass">
+                    <h3 class="contentH3"><i class="icon fab fa-internet-explorer fa-4x"></i> The Invention of The
+                        Internet</h3>
+                    </a>
+                    <p class="contentP">Learn about the inception of the internet from conception to realization</p>
+                </div>
+
+            </div>
+            <div class="content-box col-lg-4">
+                <div class="hoverBox">
+                    <a href="browserWar.html" class="aClass">
+                    <h3 class="contentH3"><i class="icon fab fa-firefox-browser fa-4x"></i> Browser Wars</h3>
+                    </a>
+                    <p class="contentP">A fierce battle over interactive web browsers that kicked off the dot com
+                        boom.</p>
+                </div>
+            </div>
+            <div class="content-box col-lg-4">
+                <div class="hoverBox">
+                    <a href="internetSearch.html" class="aClass">
+                    <h3 class="contentH3"><i class="icon fab fa-searchengin fa-4x"></i> Internet Search</h3>
+                    </a>
+                    <p class="contentP">Internet Search engines forever changed the way that the Internet is used. </p>
+                </div>
+            </div>
+            <div class="content-box col-lg-4">
+                <div class="hoverBox">
+                    <a href="dotComBubble.html" class="aClass">
+                    <h3 class="contentH3"><i class="icon fas fa-soap fa-4x"></i> Dot Com Bubble</h3>
+                    </a>
+                    <p class="contentP">A wild ride when tech companies set the financial market on its head. </p>
+                </div>
+            </div>
+            <div class="content-box col-lg-4">
+                <div class="hoverBox">
+                    <a href="people.html" class="aClass">
+                    <h3 class="contentH3"><i class="icon fas fa-users fa-4x"></i> People</h3>
+                    </a>
+                    <p class="contentP">By the 2000's access to the internet was growing exponentially and so was the
+                        power it gave to its
+                        users.</p>
+                </div>
+            </div>
+
+
+        </div>
+
+    </section>
+
+
+</section>
+
+
+
+<!--<footer class="white-section fixed-bottom"  id="footer">-->
+<!--    <div class="container-fluid">-->
+<!--        <p class="footerP" >© Copyright 2021 SmeetKathiria</p>-->
+<!--    </div>-->
+<!--</footer>-->
+
+<footer class="page-footer font-small ">
+
+    <!-- Copyright -->
+    <div class="footer-copyright text-center py-3">
+        <p class="footerP">© Copyright 2021 SmeetKathiria</p>
+    </div>
+    <!-- Copyright -->
+
+</footer>
+
+
 </body>
 </html>
+
+
+
+
