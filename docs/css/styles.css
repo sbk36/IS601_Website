@@ -22,10 +22,13 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .footerP {
-    justify-content: center;
     display: flex;
+    justify-content: center;
+    text-align: center;
 
 }
+
+
 
 .bigHeading {
     padding-top: 5%;
@@ -37,11 +40,6 @@ h1, h2, h3, h4, h5, h6 {
 .container-fluid {
     padding: 3% 15% 3%;
     height: inherit;
-    /*position: relative;*/
-
-    /*background-color: lightpink;*/
-    /*background-color: #f39f86;*/
-    /*background-image: linear-gradient(315deg, #f39f86 0%, #f9d976 74%);*/
 }
 
 
@@ -101,9 +99,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 
-/*.contentImageS{*/
-/*    margin: 15% 5% 15%;*/
-/*}*/
+
 
 /*text*/
 
@@ -163,6 +159,14 @@ h1, h2, h3, h4, h5, h6 {
 
 .icon:hover {
     color: #f9484a;
+}
+
+.icon2 {
+    display: flex;
+    justify-content: center;
+    margin-left: 0.3rem;
+    margin-top: 0.2rem;
+    margin-bottom: 0.2rem;
 }
 
 .aClass:hover {
