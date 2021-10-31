@@ -45,6 +45,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 
+
+
 .historyInfo {
     padding: 0 15% 3%;
     height: inherit;
@@ -259,7 +261,22 @@ h1, h2, h3, h4, h5, h6 {
         margin: 25% 5% 25%;
     }
 
+
+
 }
+
+.fp {
+    background-color: white;
+    background-image: none;
+}
+
+.container-fluidT{
+    padding: 3% 15% 3%;
+    height: inherit;
+    background-color: white;
+    background-image: none;
+}
+
 
 @media (max-width: 976px){
     .center {
@@ -268,6 +285,7 @@ h1, h2, h3, h4, h5, h6 {
         height: 80%;
         right: 0
     }
+
 
 
 }
