@@ -268,9 +268,16 @@ h1, h2, h3, h4, h5, h6 {
     }
 
     .container-fluid {
-background-color: transparent    }
+        background-color: transparent
+    }
 
     .footerP {
+        background-color: transparent;
+    }
+
+
+
+    .page-footer {
         background-color: transparent;
     }
 }
