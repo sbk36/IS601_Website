@@ -266,8 +266,8 @@ h1, h2, h3, h4, h5, h6 {
         height: 80%;
         right: 0
     }
-    .page-footer {
-        padding-bottom: -50px;
+    .footer-copyright {
+        margin-bottom: 0;
     }
 
 }
