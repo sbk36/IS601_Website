@@ -257,7 +257,15 @@ h1, h2, h3, h4, h5, h6 {
         margin: 25% 5% 25%;
     }
 
+}
 
+@media (max-width: 976px){
+    .center {
+        position: relative;
+        transform: rotate(0);
+        height: 80%;
+        right: 0
+    }
 
 
 }
