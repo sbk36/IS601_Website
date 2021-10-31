@@ -267,40 +267,5 @@ h1, h2, h3, h4, h5, h6 {
         right: 0
     }
 
-    .container-fluid {
-        background-color: transparent
-    }
 
-    .footerP {
-        background-color: transparent;
-    }
-
-
-    .page-footer {
-        background-color: transparent;
-    }
 }
-
-
-@media (max-width: 430px){
-    .center {
-        position: relative;
-        transform: rotate(0);
-        height: 80%;
-        right: 0
-    }
-
-    .container-fluid {
-        background-color: transparent
-    }
-
-    .footerP {
-        background-color: transparent;
-    }
-
-
-    .page-footer {
-        background-color: transparent;
-    }
-}
-
