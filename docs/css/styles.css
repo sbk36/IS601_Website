@@ -273,8 +273,11 @@ h1, h2, h3, h4, h5, h6 {
 .container-fluidT{
     padding: 3% 15% 3%;
     height: inherit;
-    background-color: white;
-    background-image: none;
+    /*background-color: white;*/
+    /*background-image: none;*/
+
+    background-color: #f39f86;
+    background-image: linear-gradient(315deg, #f39f86 0%, #f9d976 74%);
 }
 
 
