@@ -100,59 +100,103 @@
 
 
         <div class="headingText">
-            <h1 class="border-bottom headingTextColor">Internet Search</h1>
+            <h1 class="border-bottom headingTextColor"> Design Pattern</h1>
         </div>
 
-        <div class="contentAlign">
-            <div class="row">
+        <div class="flex-flow">
+            <div id="AAA">
+                <h4 style="text-align: center; padding-top: 15px"><strong>Command Design Pattern</strong></h4>
+                <p class="lead">
+                    Command is a behavioral design pattern that converts a request into a stand-alone object that
+                    contains all of the request's information. This transformation allows you to pass requests as method
+                    arguments, delay or queue the execution of a request, and support undoable operations.Lets see an
+                    example,
+                </p>
 
+                <p class="lead"> To Follow along you can reference the code here -> <a
+                        href="https://github.com/sbk36/FirstPythonProjectIS218-F21/blob/calc_refactor_SK5/App/calc/calculator.py">
+                    Github </a></p>
+                <p class="lead"> Here we are using command design pattern by sending commands to the calculations
+                    library by doing what it needs to do.Like add subtraction, add multiplication etc. </p>
+                <p class="lead"> The advantage of command design pattern is that:- </p>
+                <ol class="lead"> It separates the classes that invoke the operation from the object that knows how to
+                    carry it out.
 
-                <div class="col-lg-8">
-                    <p >
-                <span class="lead">Part two of "The True Story of the Internet" gives us a historical perspective on life before Google. How difficult it was to just discover things on the internet, and how people had to click on links after links in the hopes of finding a simple solution. Almost all-important technology, software, and internet companies, as well as clever computer experts, are based in Silicon Valley. It establishes a hub for innovative businesses to grow and succeed. Silicon Valley is home to major corporations such as Intel, Apple, and Oracle.
-                    </span>
-                    </p>
-                </div>
-                <div class="col-lg-4">
-                    <div class="contentImageIS">
-                        <img alt="is1" class="rounded float-right img-fluid" src="images/is1.jpg"/>
+                </ol>
+                <ol class="lead"> It provides a queue system that allows you to create a sequence of commands.
+
+                </ol>
+                <ol class="lead"> The addition of a new command is simple and can be accomplished without modifying the
+                    existing
+                    code.
+
+                </ol>
+                <ol class="lead"> The Command pattern can also be used to define a rollback system; for example, in the
+                    Wizard
+                    example, we could write a rollback method.
+
+                </ol>
+                <div class="contentAlign">
+                    <div class="row">
+                        <div class="col-lg-16">
+                            <div class="col-lg-8 ">
+                                <div class="contentImageIS">
+                                    <img alt="is1" class="rounded float-right  img-fluid"
+                                         src="images/design_pattern/dp1.png"/>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="row-cols-auto"><p>&nbsp;</p></div>
-            <div class="row">
-                <div class="col-lg-8">
-                    <p >
-                <span class="lead">Yahoo originated when two students were looking for sports information from Stanford University in order to win a basketball game. Jerry Yang and David Filo were the two students. Yahoo later found that the internet may be used to produce money. However, just like any other business, a competitor named "Excite" emerged. Excite was a search engine start-up that was quite similar to Yahoo and that it was also formed by college students. The only difference was that the technology that Excite built was deemed sophisticated.
-                    </span>
-                    </p>
-                </div>
-                <div class="col-lg-4">
-                    <div class="contentImageIS">
-                        <img alt="is2" class="rounded float-right img-fluid" src="images/is2.jpg"/>
+
+
+                 <h5 style="padding-top: 10px ; text-align: center" > <strong> Factory Design Pattern </strong> </h5>
+                <p class="lead">A Factory Method is a creational design pattern that provides an interface for creating
+                    objects in a superclass while allowing subclasses to change the type of objects created.Let's see an
+                    example.</p>
+
+
+                <p class="lead"> To Follow along you can reference the code here -> <a
+                        href="https://github.com/sbk36/FirstPythonProjectIS218-F21/blob/calc_part_2_SK/App/polymorphism.py">
+                    Github </a></p>
+                <p class="lead"> In the below code we can see that the create method instantiate a division object and
+                    will be returned.</p>
+                <p class="lead"> The benefit of using create method and factory design pattern is that it centralizes
+                    the instantiation of the object so there's only one place to do it rather than instantiating or
+                    changing it on multiple different places.</p>
+
+                <div class="contentAlign">
+                    <div class="row">
+                        <div class="col-lg-16">
+                            <div class="col-lg-8 ">
+                                <div class="contentImageIS">
+                                    <img alt="is1" class="rounded float-right  img-fluid"
+                                         src="images/design_pattern/dp2.png"/>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
+                <p class="lead" style="padding-top: 10px"> The result below demonstrates how the same object calls two
+                    different class method
+                    addition and subtraction and provided corresponding result from each of the class.</p>
+                <p class="lead"> The advantages of factory desgin pattern method are:-</p>
+                <ol class="lead"> The Factory Method Pattern allows sub-classes to specify the type of object to be
+                    created.
+                </ol>
+                <ol class="lead"> It encourages loose coupling by removing the need to bind application-specific classes
+                    into code. That
+                    is, the code only interacts with the resulting interface or abstract class, so it will work with any
+                    classes that implement that interface or extend that abstract class.
+
+
+                </ol>
+
 
             </div>
-            <div class="row-cols-auto"><p>&nbsp;</p></div>
-            <div class="row">
-                <div class="col-lg-8">
-                    <p>
-                <span class="lead">Google, like practically every other tech business, was founded by two Stanford University undergraduates in California. The search engine was not performing well at the moment. As previously stated, the search engine proved ineffective. Users would type a word, and a list of links would appear, either leading to further links or to a link to purchase items they didn't want. Google eventually perfected the search engine, gathering information from the internet based on a single word typed into the search box. Google's search engine speeds up the updating of results, making the indexing method quick and adaptable.
-                    </span>
-                    </p>
-                </div>
-                <div class="col-lg-4">
-                    <div class="contentImageIS">
-                        <img alt="is3" class="rounded float-right img-fluid" src="images/is3.jpg"/>
-                    </div>
-                </div>
-            </div>
 
-            <div class="row-cols-auto"><p>&nbsp;</p></div>
 
         </div>
-        <a class="btn btn-dark download-button footerP" href="dotComBubble.html" role="button">Next</a>
 
 
     </div>
@@ -168,12 +212,12 @@
         <p class="footerP">© Copyright 2021 SmeetKathiria</p>
         <p>
             <a href="http://validator.w3.org/check/referer"><img
-                    src="http://www.w3.org/Icons/valid-html40.png"
-                    alt="Valid XHTML 1.0!" height="31" width="88" /></a>
+                    alt="Valid XHTML 1.0!"
+                    height="31" src="http://www.w3.org/Icons/valid-html40.png" width="88"/></a>
         </p>
 
         <div class="col-lg-12">
-            <p > Image Credits ⬇️<a href="https://unsplash.com/"> <i class="icon2 fab fa-unsplash fa-2x" ></i> </a> </p>
+            <p> Image Credits ⬇️<a href="https://unsplash.com/"> <i class="icon2 fab fa-unsplash fa-2x"></i> </a></p>
         </div>
     </div>
 

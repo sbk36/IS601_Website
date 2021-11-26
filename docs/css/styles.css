@@ -1,6 +1,5 @@
 
-
-body{
+body {
     background-color: #f39f86;
     background-image: linear-gradient(315deg, #f39f86 0%, #f9d976 74%);
 }
@@ -31,7 +30,6 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 
-
 .bigHeading {
     padding-top: 5%;
     font-family: 'Montserrat-Black', sans-serif;
@@ -43,8 +41,6 @@ h1, h2, h3, h4, h5, h6 {
     padding: 3% 15% 3%;
     height: inherit;
 }
-
-
 
 
 .historyInfo {
@@ -103,8 +99,6 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 
-
-
 /*text*/
 
 .headingText {
@@ -155,7 +149,8 @@ h1, h2, h3, h4, h5, h6 {
     margin-bottom: 1rem;
 
 }
-.iconT{
+
+.iconT {
     display: flex;
     justify-content: center;
     margin-bottom: 1rem;
@@ -177,7 +172,8 @@ h1, h2, h3, h4, h5, h6 {
     text-decoration: none;
     color: inherit;
 }
-.aClass{
+
+.aClass {
     text-decoration: none;
     color: inherit;
 }
@@ -238,6 +234,10 @@ h1, h2, h3, h4, h5, h6 {
         margin-top: 10%;
     }
 
+    .sss{
+        margin-top: 10rem;
+    }
+
 }
 
 @media (min-width: 976px) and (max-width: 1161px) {
@@ -260,8 +260,10 @@ h1, h2, h3, h4, h5, h6 {
     .contentImageH1 {
         margin: 25% 5% 25%;
     }
-
-
+    .aaa_image{
+        height: 80%;
+        width: 80%;
+    }
 
 }
 
@@ -270,7 +272,7 @@ h1, h2, h3, h4, h5, h6 {
     background-image: none;
 }
 
-.container-fluidT{
+.container-fluidT {
     padding: 3% 15% 3%;
     height: inherit;
     /*background-color: white;*/
@@ -281,7 +283,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 
-@media (max-width: 976px){
+@media (max-width: 976px) {
     .center {
         position: relative;
         transform: rotate(0);
@@ -289,6 +291,29 @@ h1, h2, h3, h4, h5, h6 {
         right: 0
     }
 
-
-
 }
+
+
+
+.centerText {
+    text-align: center;
+}
+
+.articleText {
+    font-weight: 350;
+}
+
+.at2 {
+    font-weight: 600;
+    color: #396EB0;
+}
+
+.ap {
+    margin-bottom: 2rem;
+    padding-top: 10px;
+}
+
+.contentImageIS{
+gap: 20px;
+}
+
