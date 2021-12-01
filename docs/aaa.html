@@ -218,7 +218,7 @@
                 <p class="lead"> To Follow along you can reference it here <a
                         href="https://github.com/sbk36/FirstPythonProjectIS218-F21/tree/calc_file_handling_SK/App">
                     Code </a></p>
-                <ol class="lead"> First three values represents the number we want to add and the last value is the
+                <ol class="lead"> First three columns represents the number we want to add and the last column is the
                     expected result.
                 </ol>
 
@@ -227,7 +227,7 @@
                         <div class="col-lg-16">
                             <div class="col-lg-8 ">
                                 <div class="contentImageIS">
-                                    <img alt="is1" class="rounded float-right  img-fluid" src="images/et/et4.png"/>
+                                    <img alt="is1" class="rounded float-right  img-fluid" src="images/et/et10.png"/>
                                 </div>
                             </div>
                         </div>
@@ -236,55 +236,63 @@
                 <ol class="lead" style="padding-top: 10px"> We will test these values and expected result with the
                     result thrown out of the addition function of the calculator.
                 </ol>
-                <p class="lead"> Below code shows how the file is read using pandas and using the absolute path of the
-                    root directory where the external data is stored. </p>
+                <p class="lead"> Below code shows how the external files are retrieved using Main_Path and send to the appropriate function for testing.
+                For example if the file name is addition_test.csv the perform_add_test function is called to test the addition functionality on the external csv file.</p>
                 <div class="contentAlign">
                     <div class="row">
                         <div class="col-lg-16">
                             <div class="col-lg-8 ">
                                 <div class="contentImageIS">
-                                    <img alt="is1" class="rounded float-right  img-fluid" src="images/et/et3.png"/>
+                                    <img alt="is1" class="rounded float-right  img-fluid" src="images/et/et7.png"/>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-                <p class="lead" style="padding-top: 10px"> Since we have taken care of how the external data file is
-                    read and processed, let see how we will put these values to test.</p>
-                <p class="lead">In the below code we will read each of the values using pandas dataframe built in iat
-                    function which retrieves value at particular index.</p>
-                <p class="lead"> These value will be stored in corresponding variables and passed as a tuple to the
-                    addition function. </p>
+                <p class="lead" style="padding-top: 10px"> In the below two image we can see that the perform_add_test function calls the perform_test_on_df function which takes the csv file and converts it into data frame. The next step in perform_test_on_df function is to extract each values in a row and converts it into a tuple.After that it tests the add functionality of calculator and returns back result to the function. </p>
+                <p class="lead"> Once it has the appropriate result the returned values are checked using the assertion function to see that the desired outcome meets
+                    with the returned outcome.</p>
                 <div class="contentAlign">
                     <div class="row">
                         <div class="col-lg-16">
                             <div class="col-lg-8 ">
                                 <div class="contentImageIS">
-                                    <img alt="is1" class="rounded float-right  img-fluid" src="images/et/et2.png"/>
+                                    <img alt="is1" class="rounded float-right  img-fluid" src="images/et/et8.png"/>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-                <p class="lead" style="padding-top: 10px"> These value will be stored in corresponding variables and
-                    passed as a tuple to the addition function. </p>
+                <div class="contentAlign">
+                    <div class="row">
+                        <div class="col-lg-16">
+                            <div class="col-lg-8 ">
+                                <div class="contentImageIS">
+                                    <img alt="is1" class="rounded float-right  img-fluid" src="images/et/et6.png"/>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <p class="lead" style="padding-top: 10px"> The last part of the perform_add_test function is to save the log files generated into a folder which holds the record_number, operation performed, results returned from the calculator,timestamp and filename</p>
+                <p class="lead"> Below you can see the log file for addition test that is returned from the program.</p>
+                <div class="contentAlign">
+                    <div class="row">
+                        <div class="col-lg-16">
+                            <div class="col-lg-8 ">
+                                <div class="contentImageIS">
+                                    <img alt="is1" class="rounded float-right  img-fluid" src="images/et/et9.png"/>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
 
-                <p class="lead"> After that we check using the assertion function to see that the desired outcome meets
-                    with the returned outcome. </p>
-                <p class="lead"> On Running the pytest program, We can see below that all the required checks have been
-                    passed from pytest and printing out the values we can see that desired outcome meets the returned
-                    outcome. </p>
-                <div class="contentAlign">
-                    <div class="row">
-                        <div class="col-lg-16">
-                            <div class="col-lg-8 ">
-                                <div class="contentImageIS">
-                                    <img alt="is1" class="rounded float-right  img-fluid" src="images/et/et1.png"/>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+
+
+
+
+
 
 
             </div>
